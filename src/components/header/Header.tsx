@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 function Header() {
 	return (
-		<div className='bg-white w-full flex justify-between gap-[32px] items-center z-50 sticky top-0 px-[16px] md:px-[120px]'>
+		<div className='bg-primary w-full shadow flex justify-between gap-[32px] items-center z-50 sticky top-0 px-[16px] md:px-[120px]'>
 			<Image
-				src='/images/logo.png'
+				src='/images/logo-white.png'
 				alt='Soft Brillante'
 				width={0}
 				height={0}
@@ -14,7 +14,7 @@ function Header() {
 				className='h-[72px] w-auto object-contain '
 			/>
 			<div className='hidden md:flex items-center gap-[82px]'>
-				<ul className='md:gap-[32px] text-[16px] text-primary md:flex'>
+				<ul className='md:gap-[32px] text-[16px] text-white md:flex'>
 					<li>Home</li>
 					<li>Courses</li>
 					<li>Careers</li>

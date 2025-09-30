@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 
 function Footer() {
 	return (
-		<div className='bg-[#252641] p-[16px] flex flex-col items-center gap-[16px] md:gap-[32px] md:py-[32px]'>
+		<div className='bg-destructive p-[16px] flex flex-col items-center gap-[16px] md:gap-[32px] md:py-[32px]'>
 			<div className='flex items-center gap-[8px]'>
 				<Image
 					src='/images/logo-white.png'
@@ -34,7 +34,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className='flex flex-col items-center gap-[16px]'>
-				<div className='text-[14px] flex-wrap text-[#B2B3CF] flex'>
+				<div className='text-[14px] flex-wrap text-[#B2B3CF] flex justify-center'>
 					<p className='px-[16px] border-r border-[#B2B3CF]'>Careers</p>
 					<p className='px-[16px] border-r border-[#B2B3CF]'>Privacy Policy</p>
 					<p className='px-[16px]'>Terms & Conditions</p>

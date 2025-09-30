@@ -71,7 +71,7 @@
 	--popover-foreground: #1a1a1a;
 
 	/* 🌟 Brand colors */
-	--primary: #0e979e;
+	--primary: #0289ff;
 	--primary-foreground: #ffffff;
 
 	--secondary: #e6f6f7;
@@ -83,7 +83,7 @@
 	--accent: #dff5f6;
 	--accent-foreground: #0e979e;
 
-	--destructive: #e53935;
+	--destructive: #222222;
 	--border: #e5e7eb;
 	--input: #e5e7eb;
 	--ring: #0e979e;

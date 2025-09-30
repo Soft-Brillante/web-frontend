@@ -12,7 +12,7 @@ function Hero() {
 			<div className='px-[16px] md:px-[120px] grid md:grid-cols-2 gap-[16px]'>
 				<div className='flex w-full z-40 h-full justify-center flex-col gap-[24px] py-[24px]'>
 					<h1 className='md:text-[54px] text-[32px] capitalize font-bold text-white w-[80%] md:leading-[68px]'>
-						<span className='text-[#F1A13A]'>Studying Online</span> is now much
+						<span className='text-[#ff9100]'>Studying Online</span> is now much
 						easier
 					</h1>
 					<p className='text-secondary text-[16px] md:w-[70%]'>
@@ -23,7 +23,7 @@ function Hero() {
 						<Button className='' variant='secondary'>
 							Join Now
 						</Button>
-						<Button className='group' variant='ghost'>
+						<Button className='group text-white' variant='ghost'>
 							<FaCirclePlay className='text-white text-[32px] group-hover:text-primary' />
 							Watch How It Works
 						</Button>
@@ -77,9 +77,7 @@ function Hero() {
 						</div>
 						<div className='flex flex-col justify-between'>
 							<h3 className='text-[#595959] text-[16px]'>Congratulations</h3>
-							<p className='text-[12px] text-[#545567]'>
-								Your admission completed
-							</p>
+							<p className='text-[12px] text-[#545567]'>Grab your 25% off</p>
 						</div>
 					</div>
 				</div>
