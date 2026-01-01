@@ -48,7 +48,7 @@ function Testimonials() {
 					{/* Profile Image */}
 					<div className='relative w-80 h-80'>
 						<Image
-							src='/images/rosy.png'
+							src='/images/testimonial-1.png'
 							alt='Happy user'
 							fill
 							className='object-cover rounded-xl'
@@ -64,12 +64,11 @@ function Testimonials() {
 					{/* Review Card Overlay */}
 					<div className='absolute bottom-0 right-0 transform translate-y-1/3 bg-white shadow-lg rounded-xl p-4 md:w-96'>
 						<p className='text-gray-700 italic mb-3'>
-							“Thank you so much, Soft Brillante. This is exactly the kind of
-							training I was looking for. The structured sessions and guidance
-							save me so much time and effort. Soft Brillante is truly what my
-							learning journey has been missing.”
+							“Soft Brillante&apos;s MERN stack training was a game-changer for me.
+							The practical approach and project-based learning helped me land
+							my dream job at a top tech company in Kochi. Highly recommended!”
 						</p>
-						<p className='font-semibold text-gray-800'>Gloria Rose</p>
+						<p className='font-semibold text-gray-800'>Arun Kumar</p>
 						<div className='flex items-center justify-between mt-2'>
 							<div className='flex text-yellow-400'>
 								{Array.from({ length: 5 }).map((_, i) => (
